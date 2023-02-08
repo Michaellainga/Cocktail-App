@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchDetails">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".CocktailDetails">
+
+        <include
+            android:id="@+id/include"
+            layout="@layout/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:fontFamily="@font/gilroy_bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvDrinkName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/gilroy_bold"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+
+        <ImageView
+            android:id="@+id/ivDrink"
+            android:layout_width="150dp"
+            android:layout_height="125dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="20dp" />
+
+        <TextView
+            android:id="@+id/Category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvCategory"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/gilroy_bold"
+            android:textColor="@color/black"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/tvCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:fontFamily="@font/gilroy_light"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/gilroy_bold"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="@string/tvInstruction"/>
+
+        <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="5dp"
+        app:cardBackgroundColor="#384552"
+        android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvPrepInstructions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/gilroy_light"
+                android:textSize="18dp"
+                android:layout_gravity="center"
+                android:text="Instruction"/>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:id="@+id/tvURL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/col2"
+            android:layout_gravity="center"
+            android:fontFamily="@font/gilroy_bold"
+            android:textSize="20dp"
+            android:textStyle="italic"/>
+
+        <ProgressBar
+            android:id="@+id/pvCocktailDetails"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:max="100"
+            android:progress="0"
+            android:visibility="invisible"
+            android:progressBackgroundTint="@color/white"
+            android:progressTint="@color/blue"/>
+
+        <Button
+            android:id="@+id/btnSaveToFavourites"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/gilroy_light"
+            android:layout_centerHorizontal="true"
+            android:text="@string/save_to_Favourites" />
+
+        <Button
+            android:id="@+id/btnRemoveFromFavourites"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/gilroy_bold"
+            android:text="@string/remove_from_Favourites"
+            android:textColor="@color/black"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CóctelApp</string>
+
+    <string name="open">Abierta</string>
+    <string name="close">Cerca</string>
+    <string name="RecentlyViewedCocktail" translatable="false">CÓCTELES VISTOS RECIENTES</string>
+    <string name="search">Búsqueda</string>
+    <string name="home">Hogar</string>
+    <string name="favoritesList">Lista de favoritos</string>
+    <string name="CocktailDbWebsite">Sitio web de la base de datos de cócteles</string>
+    <string name="help">Ayuda</string>
+
+    //activity_cocktail_details.xml
+    <string name="tvCategory">CATEGORÍA</string>
+    <string name="tvInstruction">INSTRUCCIONES DE PREPARACIÓN</string>
+    <string name="save_to_Favourites">GUARDAR EN PREFERIDOS</string>
+    <string name="remove_from_Favourites">BORRADO TO PREFERIDOS</string>
+
+    //drawer_header.xml
+    <string name="version">Versión 1.0</string>
+    <string name="developer_by">Desarrollador por:</string>
+    <string name="dreamWeavers">Tejedores de Suenos</string>
+
+    //CocktailDetails.java
+    <string name="save">Guardado en favoritos</string>
+    <string name="Remove">Eliminado de favoritos</string>
+    <string name="DetailsName">Aplicación de cócteles: Van Nguyen</string>
+    <string name="link">Enlace al sitio web de bebidas</string>
+
+    //FavouritesFragement.java
+    <string name="delete">Quieres eliminar este artículo</string>
+    <string name="id">Identificación es:</string>
+    <string name="yes">Sí</string>
+    <string name="Itemdeleted">Elemento eliminado</string>
+    <string name="undo">Deshacer</string>
+    <string name="no">No</string>
+
+    //MainActivity.java
+    <string name="overflow">Navegue al menú del cajón en el lado izquierdo para ir a la actividad que desea</string>
+    <string name="closed">Cerca</string>
+
+    //SearchDetails
+    <string name="SearchName">Aplicación de cócteles: Ingabire</string>
+
+</resources>

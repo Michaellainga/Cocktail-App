@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="@string/home"
+            android:fontFamily="@font/gilroy_light"
+            app:showAsAction="always"
+            android:icon="@drawable/home"/>
+        <item
+            android:id="@+id/favorite"
+            android:title="@string/favoritesList"
+            android:fontFamily="@font/gilroy_light"
+            app:showAsAction="always"
+            android:icon="@drawable/favorite"/>
+
+        <item
+            android:id="@+id/website"
+            android:title="@string/CocktailDbWebsite"
+            android:fontFamily="@font/gilroy_light"
+            app:showAsAction="always"
+            android:icon="@drawable/website"/>
+
+    </group>
+
+</menu>

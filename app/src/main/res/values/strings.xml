@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CocktailApp</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="RecentlyViewedCocktail" translatable="false">RECENT VIEWED COCKTAILS</string>
+    <string name="search">search</string>
+    <string name="home">Home</string>
+    <string name="favoritesList">Favorites List</string>
+    <string name="CocktailDbWebsite">Cocktail Database Website</string>
+    <string name="help">Help</string>
+
+    //activity_cocktail_details.xml
+    <string name="tvCategory">CATEGORY</string>
+    <string name="tvInstruction">PREPARATION INSTRUCTIONS</string>
+    <string name="save_to_Favourites">SAVE TO FAVOURITES</string>
+    <string name="remove_from_Favourites">REMOVE FROM FAVOURITES</string>
+
+    //drawer_header.xml
+    <string name="version">Version 1.0</string>
+    <string name="developer_by">Developer By:</string>
+    <string name="dreamWeavers">Dream Weavers</string>
+
+
+    //CocktailDetails.java
+    <string name="save">saved to favourites</string>
+    <string name="Remove">Removed from favourites</string>
+    <string name="DetailsName">Cocktail App: Van Nguyen</string>
+    <string name="link">Link to drink website</string>
+
+    //FavouritesFragement.java
+    <string name="delete">Do you want to delete this item </string>
+    <string name="id">id is: </string>
+    <string name="yes">Yes</string>
+    <string name="Itemdeleted">Item deleted</string>
+    <string name="undo">Undo</string>
+    <string name="no">No</string>
+
+    //MainActivity.java
+    <string name="overflow">Navigate to the drawer menu on the left hand side to go to the activity you want</string>
+    <string name="closed">Close</string>
+
+    //SearchDetails
+    <string name="SearchName">Cocktail App: Ingabire</string>
+
+</resources>
